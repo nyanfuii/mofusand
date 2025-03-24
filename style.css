@@ -34,15 +34,18 @@ h1{
 }
 
 header ul{
-  list-style: none;
+  text-decoration: none;
   line-height: 2;
-  font-size: 16px;
-  background-color: rgb(171, 245, 161);
-  width: 60%;
-  border-radius: 10px;
-  margin: 40px auto;
-  list-style-type: circle;
-  color: rgb(124, 121, 121);
+  background-color: rgb(175, 247, 165);
+  color: rgb(245, 244, 244);
+  border-radius: 15px;
+  width: 260px;
+  margin: 30px auto;
+}
+
+
+h2{
+  color: white;
 }
 
 main{
@@ -60,22 +63,34 @@ main img{
   box-shadow: 0 0 10px gray;
 }
 
+#omake{
+  padding-bottom: 20px;
+}
 h3{
   padding-top: 40px;
 }
 
 #ec{
-  background-color: rgb(221, 239, 250);
+  background-color: rgb(163, 215, 248);
   border-radius: 10px;
-  padding: 10px;
-  width: 70%;
+  padding: 20px;
+  width: 260px;
   text-align: center;
-  margin: 30px auto;
+  margin: 20px auto;
+  box-shadow: 0 0 12px rgb(177, 177, 250);
   }
 
 [target]{
   text-decoration: none;
-  color: rgb(228, 135, 228);
+  color: rgb(219, 118, 219);
+  font-size: 22px;
+}
+
+footer p{
+  text-align: center;
+  color: rgb(112, 167, 250);
+  padding-top: 30px;
+
 }
 
 
